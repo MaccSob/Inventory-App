@@ -1,2 +1,3 @@
 # Inventory-App
-Node/PostgreSql Application
+
+Inventory management application built with NodeJS, Express, and PostgreSQL
