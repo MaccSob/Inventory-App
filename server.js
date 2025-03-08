@@ -7,7 +7,7 @@ const PORT = process.env.PORT;
 const server = express();
 
 
-
+server.use(express.static(__dirname + '/public'));
 server.set('view engine', 'ejs');
  
 
