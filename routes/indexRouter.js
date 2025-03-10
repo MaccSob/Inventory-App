@@ -2,10 +2,14 @@ const { Router } = require("express");
 const express = require('express');
 const app = express();
 const indexRouter = Router();
-const controller = require('../controllers/indexController.js')
+const indexController = require('../controllers/indexController.js')
+const genresController = require('../controllers/genresController.js')
 
 
-indexRouter.get("/", controller.get);
+
+indexRouter.get("/", indexController.get);
+indexRouter.get("/", genresController.get);
+
 
 
 
