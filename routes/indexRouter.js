@@ -8,7 +8,7 @@ const genresController = require('../controllers/genresController.js')
 
 
 indexRouter.get("/", indexController.get);
-indexRouter.get("/", genresController.get);
+indexRouter.get("/genres", genresController.get);
 
 
 

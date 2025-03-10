@@ -1,7 +1,7 @@
 module.exports = {
 
     get: (req, res) => {
-        res.render("/genres");
+        res.render("genres");
     }
     
 }
