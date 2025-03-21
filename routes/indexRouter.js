@@ -3,12 +3,12 @@ const express = require('express');
 const app = express();
 const indexRouter = Router();
 const indexController = require('../controllers/indexController.js')
-const genresController = require('../controllers/genresController.js')
+const gamesController = require('../controllers/gamesController.js')
 
 
 
 indexRouter.get("/", indexController.get);
-indexRouter.get("/genres", genresController.get);
+indexRouter.get("/games", gamesController.get);
 
 
 
