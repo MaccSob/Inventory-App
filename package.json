@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/MaccSob/Inventory-App#readme",
   "dependencies": {
-    "dotenv": "^16.4.7",
+    "dotenv": "^16.6.1",
     "ejs": "^3.1.10",
     "express": "^4.21.2",
     "kill-port": "^2.0.1"

@@ -1,16 +1,8 @@
-const { Router } = require("express");
-const express = require('express');
-const app = express();
-const indexRouter = Router();
-const indexController = require('../controllers/indexController.js')
-const gamesController = require('../controllers/gamesController.js')
+const express = require("express");
+const indexRouter = express.Router();
 
+indexRouter.route("/").get((req, res) => {
+  res.render("index", { title: "Gamerx" });
+});
 
-
-indexRouter.get("/", indexController.get);
-indexRouter.get("/games", gamesController.get);
-
-
-
-
-module.exports= indexRouter;
+module.exports = indexRouter;
