@@ -32,3 +32,7 @@ nav {
     color: #fddb3a;
   }
   
+#myBtnContainer {
+    display: flex;
+    flex-direction: column;
+}
