@@ -7,7 +7,7 @@
 .game {
     background-color: red;
     width: 150px;
-    height: 70px;
+    height: 100%;
     text-align: center;
 }
 .games {
