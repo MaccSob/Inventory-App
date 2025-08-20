@@ -1,20 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: 'Roboto';
+}
+
 #myBtnContainer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
+.wrapper {
 
+
+}
 .game {
+    display: flex;
+    flex-direction: column;
     background-color: red;
     width: 150px;
     height: 100%;
     text-align: center;
+    justify-content: center;
 }
 .games {
-    display: grid;
-      grid-template-columns: repeat(2, 1fr); 
+        max-width: 150px;
+    max-height: 150px;
+       display: grid;
+       justify-content: center;
+       align-content:space-between;
+      grid-template-columns: repeat(5, 1fr); 
   grid-template-rows: repeat(3, 1fr); 
   column-gap: 10px;
   row-gap: 15px;
 
 }
+
