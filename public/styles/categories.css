@@ -1,0 +1,7 @@
+.categorieswrapper {
+    display: grid;
+}
+.add {
+    padding: 25px;
+    max-width: 150px;
+}
