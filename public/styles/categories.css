@@ -5,3 +5,6 @@
     padding: 25px;
     max-width: 150px;
 }
+a {
+    text-decoration: none;
+}
